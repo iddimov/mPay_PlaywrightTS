@@ -1,4 +1,5 @@
 The project is using Playwright with Typescript.
+
 **Dependencies**
 1. Install Node.JS
 2. Install VS Code
