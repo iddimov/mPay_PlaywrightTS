@@ -9,7 +9,7 @@ The project is using Playwright with Typescript.
 1. Option: via VS Code Test explorer:
 * Open the test explorer and all tests should be listed
 2. Option: via Terminal
-* Open the terminal and type: "npx playwright test --ui" (with via Playwright's UI) or execute all tests without UI: "npx playwright test"
+* Open the terminal and type: "npx playwright test --ui" (via Playwright's UI) or execute all tests without UI: "npx playwright test"
 
 **Tests in the solution:**
 1. AC1: Create and verify a new Natural User
