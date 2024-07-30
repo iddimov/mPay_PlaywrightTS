@@ -19,7 +19,7 @@ Edge Cases - handling of special characters in creation scenarios
 Boundary Cases - Max. and Max. length in different fields like "Description"
 Boundary Cases - Min. and Max. amount in the Wallet after creation
 
-**Imrovement ideas**
+**Improvement ideas**
 1. Using "dotenv" library:
 * to pass different parameters (for example credentials, using the benefit of "process.env.__" etc)
 * to have multiple playwright/test config files
