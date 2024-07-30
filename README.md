@@ -16,10 +16,9 @@ The project is using Playwright with Typescript.
 2. AC2: Create and verify a new Wallet for a User
 
 **Tests that are not included in the solution:**
-
-Edge Cases - handling of special characters in creation scenarios
-Boundary Cases - Max. and Max. length in different fields like "Description"
-Boundary Cases - Min. and Max. amount in the Wallet after creation
+1. Edge Cases - handling of special characters in creation scenarios
+2. Boundary Cases - Max. and Max. length in different fields like "Description"
+3. Boundary Cases - Min. and Max. amount in the Wallet after creation
 
 **Improvement ideas**
 1. Using "dotenv" library:
