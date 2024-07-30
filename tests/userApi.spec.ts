@@ -27,7 +27,7 @@ test.describe('User API Tests', () => {
     const getUserResponse = await userApi.getUser(newUserId); 
     const getResponseBody = await getUserResponse.json();
     
-    test.step('GET - Get user\'s data is successful', ()=>{      
+    test.step('GET - User\'s data returns 200', ()=>{      
       expect(getUserResponse.status()).toBe(200);
     })   
     

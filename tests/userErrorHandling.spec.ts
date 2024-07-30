@@ -18,11 +18,11 @@ test.describe('Error handling API Tests', () => {
       expect(response.status()).toBeLessThan(500);    
     })   
     
-    test.step('Verify response body contains errorType', ()=>{ 
+    test.step('Verify response body contains error type', ()=>{ 
       expect(responseBody).toHaveProperty('Type'); 
     }) 
 
-    test.step('Verify response body contains errorType', ()=>{ 
+    test.step('Verify response body contains error message', ()=>{ 
       expect(responseBody).toHaveProperty('errors'); 
     }) 
   });

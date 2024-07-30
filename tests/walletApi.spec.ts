@@ -15,7 +15,7 @@ test.describe('Wallets API Tests', () => {
     const createResponseBody = await createWalletResponse.json();
     newWalletId = createResponseBody.Id;
 
-    test.step('POST - Create a wallet return 200', ()=>{ 
+    test.step('POST - Create a wallet and return 200', ()=>{ 
       expect(createWalletResponse.status()).toBe(200);
     })
         
