@@ -16,7 +16,7 @@ test.describe('User API Tests', () => {
     const createResponseBody = await createUserResponse.json();
     newUserId = createResponseBody.Id;
 
-    test.step('POST - Create a user', ()=>{ 
+    test.step('POST - Create a user and return 200', ()=>{ 
       expect(createUserResponse.status()).toBe(200); 
     })
         
