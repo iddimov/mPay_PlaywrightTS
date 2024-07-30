@@ -1,0 +1,8 @@
+{
+    "newWallet": {
+        "Owners": ["user_m_01J3ZSKVD3GS6K2D3SQ1P15T11"],
+        "Description": "Description of the user's wallet",
+        "Currency": "PLN",
+        "Tag": "Created using playwright API"
+    }
+  }  

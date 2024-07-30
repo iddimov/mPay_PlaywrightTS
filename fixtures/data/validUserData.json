@@ -1,0 +1,18 @@
+{
+  "newUser": {
+      "FirstName": "Jessika",
+      "LastName": "Wiza",
+      "Email": "craig0@gmail.com",
+      "Address": {
+          "AddressLine1": "03461 Sipes Lock",
+          "AddressLine2": "Connelly Ranch",
+          "City": "Paris",
+          "Region": "Ile-de-France",
+          "PostalCode": "75001",
+          "Country": "FR"
+    },
+    "UserCategory": "PAYER",
+    "TermsAndConditionsAccepted": false,
+    "Tag": "Created using playwright API"
+  }
+}  

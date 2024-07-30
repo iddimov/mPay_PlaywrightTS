@@ -1,0 +1,18 @@
+{
+  "newUser": {
+      "FirstName": "",
+      "LastName": "",
+      "Email": "",
+      "Address": {
+          "AddressLine1": "",
+          "AddressLine2": "",
+          "City": "Paris",
+          "Region": "",
+          "PostalCode": "",
+          "Country": ""
+    },
+    "UserCategory": "PAYER",
+    "TermsAndConditionsAccepted": false,
+    "Tag": "Created using playwright API"
+  }
+}  
