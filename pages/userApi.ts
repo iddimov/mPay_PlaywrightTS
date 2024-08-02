@@ -12,10 +12,10 @@ export class UserApi {
   }
 
   async getUser(userId: string) {
-    return this.apiClient.getEndPoint(`users/${userId}`);
+    return this.apiClient.getEndpoint(`users/${userId}`);
   }
 
   async getAllUser() {
-    return this.apiClient.getEndPoint(`users`);
+    return this.apiClient.getEndpoint(`users`);
   }
 }

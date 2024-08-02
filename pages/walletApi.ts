@@ -12,14 +12,14 @@ export class WalletApi {
   }
 
   async getAWallet(walletId: string) {
-    return this.apiClient.getEndPoint(`/wallets/${walletId}`);
+    return this.apiClient.getEndpoint(`/wallets/${walletId}`);
   }
 
   async getUserWallets(userId: string) {
-    return this.apiClient.getEndPoint(`${userId}/wallets`);
+    return this.apiClient.getEndpoint(`${userId}/wallets`);
   }
   
   async getUsersWallets(userId: string) {
-    return this.apiClient.getEndPoint(`users/${userId}/wallets`);
+    return this.apiClient.getEndpoint(`users/${userId}/wallets`);
   }
 }

@@ -27,7 +27,7 @@ export class ApiClient {
     return response;
   }
 
-  async getEndPoint(endpoint: string) {    
+  async getEndpoint(endpoint: string) {    
     const token = await this.getToken();
     const response = await (await request.newContext()).get(`${API_URL}/${API_VERSION}/${CLIENT_ID}/${endpoint}`, {
       headers: {
